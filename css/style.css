@@ -4,5 +4,31 @@
 }
 
 #content {
-  margin-top: 3vh;
+  margin-top: 2vh;
+  text-align: center;
+}
+
+.board-container {
+  text-align: center;
+  display: inline-block;
+}
+
+.board {
+  margin-bottom: 20px;
+}
+
+.board-row {
+  height: 15px;
+}
+
+.board-cell {
+  display: inline-block;
+  border: 1px solid black;
+  background-color: white;
+  height: 15px;
+  width: 15px;
+}
+
+.board-cell.alive {
+  background-color: red;
 }

@@ -7,7 +7,7 @@ gulp.task('reload', function(){
 
 gulp.task('watch', function(){
   livereload.listen();
-  gulp.watch('./**/*.*', ['reload'])
+  gulp.watch('./js/*.*', ['reload'])
 })
 
 gulp.task('default', ['watch'])
